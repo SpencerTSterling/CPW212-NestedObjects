@@ -20,6 +20,12 @@ namespace NestedObjects
         /// Student's legal last name
         /// </summary>
         public string LastName { get; set; }
+        /// <summary>
+        /// List of classes student is enrolled in
+        /// </summary>
+        public List<Course> Schedule { get; set; }
         #endregion 
+
+
     }
 }
